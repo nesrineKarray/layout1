@@ -1,0 +1,69 @@
+{
+  "article" : [
+      {  
+      "id": 1,
+      "titre": "article fiscal",
+      "reference": "2222",
+      "date": "12/2/2021",
+      "texte":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "domaine":"fiscal"
+    },
+    {
+      "id": 2,
+      "titre": "loi juridique",
+      "reference": "3333",
+      "date": "12/2/2022",
+      "texte":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "domaine":"juridique"
+    },
+    {
+      "id": 3,
+      "titre": "article social",
+      "reference": "2323",
+      "date": "12/5/2021",
+      "texte":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "domaine":"social"
+    },
+    {
+      "id": 4,
+      "titre": "note commune fiscal",
+      "reference": "7891 ",
+      "date": "28/06/2021",
+      "texte":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "domaine":"fiscal"
+    },
+    {
+      "id": 5,
+      "titre": "douane fiscal",
+      "reference": "1111",
+      "date": "1/1/2023",
+      "texte":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "domaine":"fiscal"
+    },
+    {
+      "id": 6,
+      "titre": "decrets social",
+      "reference": "8989",
+      "date": "12/12/2021",
+      "texte":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "domaine":"social"
+    },
+    {
+      "id": 7,
+      "titre": "arretés juridique",
+      "reference": "7777",
+      "date": "12/2/2019",
+      "texte":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "domaine":"juridique"
+    },
+    {
+      "id": 8,
+      "titre": "décrets juridique",
+      "reference": "5555",
+      "date": "30/2/2023",
+      "texte":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "domaine":"juridique"
+    }
+    
+  ]
+  }
