@@ -326,7 +326,7 @@ h6,
 
 .testimonial-carousel .owl-item .testimonial-item,
 .testimonial-carousel .owl-item .testimonial-item * {
-    transition: .5s;
+    transition: .1s;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
