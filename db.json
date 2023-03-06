@@ -2,68 +2,161 @@
   "article" : [
       {  
       "id": 1,
-      "titre": "article fiscal",
-      "reference": "2222",
-      "date": "12/2/2021",
-      "texte":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
-      "domaine":"fiscal"
+      "titre": "article 1",
+      "ref": "2222",
+      "date_publication": "12/2/2021",
+      "abstract":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags":"TVA"
     },
     {
       "id": 2,
-      "titre": "loi juridique",
-      "reference": "3333",
-      "date": "12/2/2022",
-      "texte":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
-      "domaine":"juridique"
+      "titre": "article 2",
+      "ref": "2222",
+      "date": "12/2/2021",
+      "abstract":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags":"TVA"
     },
     {
       "id": 3,
-      "titre": "article social",
-      "reference": "2323",
-      "date": "12/5/2021",
-      "texte":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
-      "domaine":"social"
+      "titre": "article 3",
+      "ref": "2222",
+      "date": "12/2/2021",
+      "abstract":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags":"TVA"
     },
     {
       "id": 4,
-      "titre": "note commune fiscal",
-      "reference": "7891 ",
-      "date": "28/06/2021",
-      "texte":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
-      "domaine":"fiscal"
+      "titre": "article 4",
+      "ref": "2222",
+      "date_publication": "12/2/2021",
+      "abstract":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags":"TVA"
     },
     {
       "id": 5,
       "titre": "douane fiscal",
-      "reference": "1111",
-      "date": "1/1/2023",
-      "texte":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
-      "domaine":"fiscal"
+      "ref": "2222",
+      "date_publication": "12/2/2021",
+      "abstract":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags":"TVA"
     },
     {
       "id": 6,
       "titre": "decrets social",
-      "reference": "8989",
-      "date": "12/12/2021",
-      "texte":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
-      "domaine":"social"
+      "ref": "2222",
+      "date": "12/2/2021",
+      "abstract":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags":"TVA"
     },
     {
       "id": 7,
       "titre": "arretés juridique",
-      "reference": "7777",
-      "date": "12/2/2019",
-      "texte":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
-      "domaine":"juridique"
+      "ref": "2222",
+      "date_publication": "12/2/2021",
+      "abstract":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags":"TVA"
     },
     {
       "id": 8,
       "titre": "décrets juridique",
-      "reference": "5555",
-      "date": "30/2/2023",
-      "texte":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
-      "domaine":"juridique"
+      "ref": "2222",
+      "date_publication": "12/2/2021",
+      "abstract":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags":"TVA"
     }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "nom": "juridique",
+      "description": "de la base",
+      "url":"assets/img/juridique1.jpg"
+    },
+    {
+      "id": 2,
+      "nom": "social",
+      "description": "de la base",
+      "url":"assets/img/social.jpg"
+    },
+    {
+      "id": 3,
+      "nom": "législation",
+      "description": "de la base",
+      "url":"assets/img/legislation.jpg"
+    },
+    {
+      "id": 4,
+      "nom": "santé",
+      "description": "de la base",
+      "url":"assets/img/sante.jpg"
+    },
+    {
+      "id": 5,
+      "nom": "Droit de l'homme",
+      "description": "de la base",
+      "url":"assets/img/droit-homme.png"
+    },
+    {
+      "id": 6,
+      "nom": "Foncier",
+      "description": "de la base",
+      "url":"assets/img/finance1.png"
+    },
+    {
+      "id": 7,
+      "nom": "Foncier",
+      "description": "de la base",
+      "url":"assets/img/foncier.jpg"
+    },
+    {
+      "id": 7,
+      "nom": "Investissement",
+      "description": "de la base",
+      "url":"assets/img/investissement.jpg"
+    }
+  ],
+  "abonnement" : [
+  {
+    "id": 1,
+    "nom": "Diamond",
+  "duree": "un mois",
+  "nbre_question": 5,
+  "solde": 100,
+  "url":"assets/img/diamond.png"
+  },
+  {
+    "id": 2,
+    "nom": "Platinium",
+  "duree": "un mois",
+  "nbre_question": 7,
+  "solde": 120,
+  "url":"assets/img/platinim.jpg" 
+  },
+  {
+    "id": 3,
+    "nom": "GOLD",
+  "duree": "un mois",
+  "nbre_question": 5,
+  "solde": 100 ,
+  "url":"assets/img/gold.png"
+  },
+  {
+    "id": 4,
+    "nom": "Silver",
+  "duree": "un mois",
+  "nbre_question": 8,
+  "solde": 150,
+  "url":"assets/img/silver.png" 
+  },
+  {
+    "id": 5,
+    "nom": "Bronze",
+  "duree": "un mois",
+  "nbre_question": 7,
+  "solde": 120,
+  "url":"assets/img/bronze.jpg" 
+  }
+  
     
   ]
   }
