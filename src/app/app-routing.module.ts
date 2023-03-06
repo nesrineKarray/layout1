@@ -11,7 +11,6 @@ import { JuridiqueComponent } from './juridique/juridique.component';
 import { ListArticleComponent } from './list-article/list-article.component';
 import { LoginComponent } from './login/login.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { ProductComponent } from './product/product.component';
 import { ServiceComponent } from './service/service.component';
 import { SocialeComponent } from './sociale/sociale.component';
   import { TopbarComponent } from './topbar/topbar.component';
@@ -26,7 +25,6 @@ const routes: Routes = [
   {path:"avance",component:AvanceComponent},
   {path:"topbar",component:TopbarComponent},
   // {path:"facts",component:FactsComponent},
-  {path:"product",component:ProductComponent},
   {path:"sociale",component:SocialeComponent},
   {path:"vaertical",component:VaerticalComponent},
   {path:"juridique",component:JuridiqueComponent},
