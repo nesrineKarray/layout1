@@ -9,6 +9,8 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class AvanceComponent {
   registerForm:any = FormGroup;
 submitted = false;
+  option=false;
+
 constructor( private formBuilder: FormBuilder){}
 //Add user form actions
 get f() { return this.registerForm.controls; }
@@ -39,6 +41,10 @@ onSubmit() {
       roundtripopt: ['', [Validators.required]],
       
       });
+  }
+  affiche(){
+    this.option=true;
+
   }
 
 }

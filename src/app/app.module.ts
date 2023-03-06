@@ -12,14 +12,14 @@ import { AvanceComponent } from './avance/avance.component';
 import { TopbarComponent } from './topbar/topbar.component';
 import { FactsComponent } from './facts/facts.component';
 import { ProductComponent } from './product/product.component';
-import { SocialeComponent } from './sociale/sociale.component';
+
 import { TeamComponent } from './team/team.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
-import { VaerticalComponent } from './vaertical/vaertical.component';
-import { JuridiqueComponent } from './juridique/juridique.component';
-import { FiscalComponent } from './fiscal/fiscal.component';
 import { ListArticleComponent } from './list-article/list-article.component';
 import { GlobaleComponent } from './globale/globale.component';
+import { CategorieComponent } from './categorie/categorie.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ChildrenComponent } from './children/children.component';
 
 
 @NgModule({
@@ -34,19 +34,18 @@ import { GlobaleComponent } from './globale/globale.component';
     TopbarComponent,
     FactsComponent,
     ProductComponent,
-    SocialeComponent,
     TeamComponent,
     TestimonialComponent,
-    VaerticalComponent,
-    JuridiqueComponent,
-    FiscalComponent,
     ListArticleComponent,
-    GlobaleComponent 
+    GlobaleComponent,
+    CategorieComponent,
+    ChildrenComponent 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

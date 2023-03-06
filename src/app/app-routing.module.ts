@@ -1,23 +1,22 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AvanceComponent } from './avance/avance.component';
+import { CategorieComponent } from './categorie/categorie.component';
+import { ChildrenComponent } from './children/children.component';
 
 import { FactsComponent } from './facts/facts.component';
-import { FiscalComponent } from './fiscal/fiscal.component';
 import { FooterComponent } from './footer/footer.component';
 import { GlobaleComponent } from './globale/globale.component';
 import { HomeComponent } from './home/home.component';
-import { JuridiqueComponent } from './juridique/juridique.component';
 import { ListArticleComponent } from './list-article/list-article.component';
 import { LoginComponent } from './login/login.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProductComponent } from './product/product.component';
 import { ServiceComponent } from './service/service.component';
-import { SocialeComponent } from './sociale/sociale.component';
 import { TeamComponent } from './team/team.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { TopbarComponent } from './topbar/topbar.component';
-import { VaerticalComponent } from './vaertical/vaertical.component';
+
 
 const routes: Routes = [
   {path:"footer",component:FooterComponent},
@@ -29,14 +28,12 @@ const routes: Routes = [
   {path:"topbar",component:TopbarComponent},
   {path:"facts",component:FactsComponent},
   {path:"product",component:ProductComponent},
-  {path:"sociale",component:SocialeComponent},
   {path:"team",component:TeamComponent},
   {path:"testimonial",component:TestimonialComponent},
-  {path:"vaertical",component:VaerticalComponent},
-  {path:"juridique",component:JuridiqueComponent},
-  {path:"fiscal",component:FiscalComponent},
   {path:"list-article",component:ListArticleComponent},
-  {path:"globale",component:GlobaleComponent}
+  {path:"globale",component:GlobaleComponent},
+  {path:"categorie",component:CategorieComponent},
+  {path:"children",component:ChildrenComponent},
 ];
 
 @NgModule({
