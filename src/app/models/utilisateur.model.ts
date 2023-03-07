@@ -3,10 +3,7 @@ export class Utilisateur {
     firstname: string = '';
     lastname: string = '';
     birthdate: string = '';
-    gender: string = '';
-    education: string = '';
-    company: string = '';
-    jobExperience: number = 0;
+    job: string = '';
     profile: string = '';
-
+    message:string='';
 }

@@ -1,59 +1,12 @@
 <div class="container-xxl bg-light my-6 py-6 pt-0">
     <div class="container">
-        
+
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
             <p class="text-primary text-uppercase mb-2">// les News</p>
-            
-        </div>
-<div class="row g-4">
-    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-         
-        <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
-            <div class="text-center p-4">
-                <div class="d-inline-block border border-primary rounded-pill px-3 mb-3">reference:22222</div>
-                <h3 class="mb-3">Title 1</h3>
-                <span>date aa/m/dddd</span>
-            </div>
-            <div class="position-relative mt-auto">
-                <img class="img-fluid" src="assets/img/product-1.jpg" alt="">
-                <div class="product-overlay">
-                    <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-eye text-primary"></i></a>
-                </div>
-            </div>
-        </div>
 
         </div>
-
-    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-       
-        <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
-            <div class="text-center p-4">
-                <div class="d-inline-block border border-primary rounded-pill px-3 mb-3">reference:22222</div>
-                <h3 class="mb-3">Title 1</h3>
-                <span>date aa/m/dddd</span>
-            </div>
-            <div class="position-relative mt-auto">
-                <img class="img-fluid" src="assets/img/product-1.jpg" alt="">
-                <div class="product-overlay">
-                    <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-eye text-primary"></i></a>
-                </div>
+        <div class="row g-4" >
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" *ngFor="let item of data.slice(-6)" >
+<app-carte-article [item]="item" ></app-carte-article>
             </div>
         </div>
-
-    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-       
-        <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
-            <div class="text-center p-4">
-                <div class="d-inline-block border border-primary rounded-pill px-3 mb-3">reference:22222</div>
-                <h3 class="mb-3">Title 1</h3>
-                <span>date aa/m/dddd</span>
-            </div>
-            <div class="position-relative mt-auto">
-                <img class="img-fluid" src="assets/img/product-1.jpg" alt="">
-                <div class="product-overlay">
-                    <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-eye text-primary"></i></a>
-                </div>
-            </div>
-        </div>
-
-</div></div></div>

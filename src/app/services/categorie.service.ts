@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class CategorieService {
 
-  baseUrl = 'http://localhost:3000/categorie';
+  baseUrl = 'http://localhost:3000/themes';
 
   constructor(private http: HttpClient) {}
 

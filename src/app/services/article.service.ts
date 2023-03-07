@@ -6,11 +6,11 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ArticleService {
-  baseUrl = 'http://localhost:3000/articles';
+  baseUrl = 'http://localhost:3000/article';
 
   constructor(private http: HttpClient) {}
 
-  getAbonnements() {
+  getArticles() {
     return this.http.get<Article []>(this.baseUrl);
   }
 }

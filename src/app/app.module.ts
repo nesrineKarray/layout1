@@ -25,6 +25,9 @@ import { AboutUsComponent } from './home/about-us/about-us.component';
 import { ListeArticlesComponent } from './home/liste-articles/liste-articles.component';
 import { AvisExpertComponent } from './home/avis-expert/avis-expert.component';
 import { PartenairesComponent } from './home/partenaires/partenaires.component';
+import { CarteAvisComponent } from './home/carte-avis/carte-avis.component';
+import { NewsLetterComponent } from './home/news-letter/news-letter.component';
+import { CarteArticleComponent } from './home/carte-article/carte-article.component';
 
 
 @NgModule({
@@ -51,7 +54,10 @@ import { PartenairesComponent } from './home/partenaires/partenaires.component';
     CartesAffichantCategoriesComponent,
     ListeArticlesComponent,
     AvisExpertComponent,
-    PartenairesComponent
+    PartenairesComponent,
+    CarteAvisComponent,
+    NewsLetterComponent,
+    CarteArticleComponent
   ],
   imports: [
     BrowserModule,

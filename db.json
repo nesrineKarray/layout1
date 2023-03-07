@@ -1,162 +1,228 @@
 {
-  "article" : [
-      {  
+  "article": [
+    {
       "id": 1,
       "titre": "article 1",
       "ref": "2222",
       "date_publication": "12/2/2021",
-      "abstract":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
-      "tags":"TVA"
+      "abstract": "No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags": "TVA"
     },
     {
       "id": 2,
       "titre": "article 2",
       "ref": "2222",
       "date": "12/2/2021",
-      "abstract":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
-      "tags":"TVA"
+      "abstract": "No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags": "TVA"
     },
     {
       "id": 3,
       "titre": "article 3",
       "ref": "2222",
       "date": "12/2/2021",
-      "abstract":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
-      "tags":"TVA"
+      "abstract": "No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags": "TVA"
     },
     {
       "id": 4,
       "titre": "article 4",
       "ref": "2222",
       "date_publication": "12/2/2021",
-      "abstract":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
-      "tags":"TVA"
+      "abstract": "No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags": "TVA"
     },
     {
       "id": 5,
       "titre": "douane fiscal",
       "ref": "2222",
       "date_publication": "12/2/2021",
-      "abstract":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
-      "tags":"TVA"
+      "abstract": "No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags": "TVA"
     },
     {
       "id": 6,
       "titre": "decrets social",
       "ref": "2222",
       "date": "12/2/2021",
-      "abstract":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
-      "tags":"TVA"
+      "abstract": "No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags": "TVA"
     },
     {
       "id": 7,
       "titre": "arretés juridique",
       "ref": "2222",
       "date_publication": "12/2/2021",
-      "abstract":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
-      "tags":"TVA"
+      "abstract": "No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags": "TVA"
     },
     {
       "id": 8,
       "titre": "décrets juridique",
       "ref": "2222",
       "date_publication": "12/2/2021",
-      "abstract":"No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
-      "tags":"TVA"
+      "abstract": "No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags": "TVA"
     }
   ],
-  "categories": [
+  "themes": [
     {
       "id": 1,
-      "nom": "juridique",
+      "nom": "Droit commercial",
       "description": "de la base",
-      "url":"assets/img/juridique1.jpg"
+      "url": "assets/img/juridique1.jpg",
+      "font": "fa fa-balance-scale fa-4x text-primary mb-4"
     },
     {
       "id": 2,
-      "nom": "social",
+      "nom": "Société commerciale",
       "description": "de la base",
-      "url":"assets/img/social.jpg"
+      "url": "assets/img/social.jpg",
+      "font": "fa fa-users fa-4x text-primary mb-4"
     },
     {
       "id": 3,
-      "nom": "législation",
+      "nom": "Droits civils",
       "description": "de la base",
-      "url":"assets/img/legislation.jpg"
+      "url": "assets/img/legislation.jpg",
+      "font": "fa fa-balance-scale fa-4x"
     },
     {
       "id": 4,
-      "nom": "santé",
+      "nom": "Statut personnel",
       "description": "de la base",
-      "url":"assets/img/sante.jpg"
+      "url": "assets/img/sante.jpg",
+      "font": ""
     },
     {
       "id": 5,
-      "nom": "Droit de l'homme",
+      "nom": "Arbitrage",
       "description": "de la base",
-      "url":"assets/img/droit-homme.png"
+      "url": "assets/img/droit-homme.png",
+      "font": "fa fa-balance-scale fa-4x"
     },
     {
       "id": 6,
-      "nom": "Foncier",
+      "nom": "Droit pénal",
       "description": "de la base",
-      "url":"assets/img/finance1.png"
+      "url": "assets/img/finance1.png",
+      "font": "fa fa-university  fa-4x text-primary mb-4"
     },
     {
       "id": 7,
-      "nom": "Foncier",
+      "nom": "fiscal",
       "description": "de la base",
-      "url":"assets/img/foncier.jpg"
+      "url": "assets/img/foncier.jpg",
+      "font": "fa fa-balance-scale fa-4x"
     },
     {
-      "id": 7,
-      "nom": "Investissement",
+      "id": 8,
+      "nom": "Droit international privé",
       "description": "de la base",
-      "url":"assets/img/investissement.jpg"
+      "url": "assets/img/investissement.jpg",
+      "font": "fa fa-balance-scale fa-4x"
     }
   ],
-  "abonnement" : [
-  {
-    "id": 1,
-    "nom": "Diamond",
-  "duree": "un mois",
-  "nbre_question": 5,
-  "solde": 100,
-  "url":"assets/img/diamond.png"
-  },
-  {
-    "id": 2,
-    "nom": "Platinium",
-  "duree": "un mois",
-  "nbre_question": 7,
-  "solde": 120,
-  "url":"assets/img/platinim.jpg" 
-  },
-  {
-    "id": 3,
-    "nom": "GOLD",
-  "duree": "un mois",
-  "nbre_question": 5,
-  "solde": 100 ,
-  "url":"assets/img/gold.png"
-  },
-  {
-    "id": 4,
-    "nom": "Silver",
-  "duree": "un mois",
-  "nbre_question": 8,
-  "solde": 150,
-  "url":"assets/img/silver.png" 
-  },
-  {
-    "id": 5,
-    "nom": "Bronze",
-  "duree": "un mois",
-  "nbre_question": 7,
-  "solde": 120,
-  "url":"assets/img/bronze.jpg" 
-  }
-  
-    
+  "abonnement": [
+    {
+      "id": 1,
+      "nom": "Diamond",
+      "duree": "un mois",
+      "nbre_question": 5,
+      "solde": 100,
+      "url": "assets/img/diamond.png"
+    },
+    {
+      "id": 2,
+      "nom": "Platinium",
+      "duree": "un mois",
+      "nbre_question": 7,
+      "solde": 120,
+      "url": "assets/img/platinim.jpg"
+    },
+    {
+      "id": 3,
+      "nom": "GOLD",
+      "duree": "un mois",
+      "nbre_question": 5,
+      "solde": 100,
+      "url": "assets/img/gold.png"
+    },
+    {
+      "id": 4,
+      "nom": "Silver",
+      "duree": "un mois",
+      "nbre_question": 8,
+      "solde": 150,
+      "url": "assets/img/silver.png"
+    },
+    {
+      "id": 5,
+      "nom": "Bronze",
+      "duree": "un mois",
+      "nbre_question": 7,
+      "solde": 120,
+      "url": "assets/img/bronze.jpg"
+    }
+  ],
+  "utilisateur": [
+    {
+      "id": 1,
+      "firstname": "Mr Akram",
+      "lastname": "ddd",
+      "birthdate": "",
+      "profile": "assets/img/testimonial-1.jpg",
+      "job":"profession",
+      "message":"Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+    },
+    {
+      "id": 2,
+      "firstname": "Mr Yessine",
+      "lastname": "",
+      "birthdate": "",
+      "profile": "assets/img/testimonial-2.jpg",
+      "job":"profession",
+      "message":"Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+    },
+    {
+      "id": 3,
+      "firstname": "Mr Salmen",
+      "lastname": "AAA",
+      "birthdate": "",
+      "profile": "assets/img/testimonial-3.jpg",
+      "job":"profession",
+      "message":"Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+    },
+    {
+      "id": 4,
+      "firstname": "Mme Hazar",
+      "lastname": "BBB",
+      "birthdate": "",
+      "profile": "assets/img/testimonial-4.jpg",
+      "job":"profession",
+      "message":"Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+    }
+  ],
+  "partenaires": [
+    {
+      "id": 1,
+      "nom": "zitouna",
+      "url": "assets/img/team-1.jpg"
+    },
+    {
+      "id": 2,
+      "nom": "TT",
+      "url": "assets/img/team-2.jpg"
+    },
+    {
+      "id": 3,
+      "nom": "AA",
+      "url": "assets/img/team-3.jpg"
+    },
+    {
+      "id": 4,
+      "nom": "SS",
+      "url": "assets/img/team-4.jpg"
+    }
   ]
-  }
+}
