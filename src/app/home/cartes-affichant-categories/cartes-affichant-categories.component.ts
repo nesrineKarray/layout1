@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import {CategorieService} from 'src/app/services/categorie.service';
-import {Categorie} from 'src/app/models/categorie.model'
+import {Categorie} from 'src/app/models/categorie.model';
+import { Router } from '@angular/router';
+
 @Component({
   selector: 'app-cartes-affichant-categories',
   templateUrl: './cartes-affichant-categories.component.html',
@@ -8,7 +10,7 @@ import {Categorie} from 'src/app/models/categorie.model'
 })
 export class CartesAffichantCategoriesComponent {
   data:Categorie[] =[];
-  constructor(private dataCategorie: CategorieService) { }
+  constructor(private dataCategorie: CategorieService, private router: Router) { }
   
   ngOnInit() {
     this.dataCategorie.getCategorie()
@@ -17,5 +19,8 @@ export class CartesAffichantCategoriesComponent {
       console.log(this.data);
       
     });
+  }
+  goToCategories(categoryId: number) {
+    this.router.navigate(["/cat", categoryId]);
   }
 }
