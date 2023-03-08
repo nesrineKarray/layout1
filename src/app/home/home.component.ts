@@ -8,5 +8,8 @@ import { CategorieService } from '../services/categorie.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  
+  // public navigateToSection(section: string) {
+  //   window.location.hash = '';
+  //   window.location.hash = section;
+  // }
 }

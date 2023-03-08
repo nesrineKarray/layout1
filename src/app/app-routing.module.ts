@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AvanceComponent } from './avance/avance.component';
+import { CategoriesComponent } from './categories/categories.component';
 // import { FactsComponent } from './home/facts/facts.component';
 import { FiscalComponent } from './fiscal/fiscal.component';
 import { FooterComponent } from './footer/footer.component';
 import { GlobaleComponent } from './globale/globale.component';
+import { CartesAffichantCategoriesComponent } from './home/cartes-affichant-categories/cartes-affichant-categories.component';
 import { HomeComponent } from './home/home.component';
 import { InscritComponent } from './inscrit/inscrit.component';
 import { JuridiqueComponent } from './juridique/juridique.component';
@@ -32,6 +34,8 @@ const routes: Routes = [
   {path:"list-article",component:ListArticleComponent},
   {path:"globale",component:GlobaleComponent},
   {path:"inscription",component:InscritComponent},
+  {path:"cartes-categ",component:CartesAffichantCategoriesComponent},
+  {path:"cat/:id",component:CategoriesComponent}
 ];
 
 @NgModule({

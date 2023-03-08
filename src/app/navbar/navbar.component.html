@@ -13,10 +13,10 @@
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">categorie</a>
                 <div class="dropdown-menu m-0" >
-                    <a  routerLink="/sociale" (click)="update('sociale')" class="dropdown-item">sociale</a>
-                    <a  class="dropdown-item" (click)="update('juridique')" routerLink="/juridique">juridique</a>
-                    <a  class="dropdown-item" (click)="update('fiscale')" routerLink="/fiscal">fiscale</a>
-                    <a href="#" class="dropdown-item">autres</a>
+                    <a (click)="navigateToSection('sociale')" class="dropdown-item">sociale</a>
+                    <a  class="dropdown-item" (click)="navigateToSection('juridique')">juridique</a>
+                    <a  class="dropdown-item" (click)="navigateToSection('fiscal')">fiscale</a>
+                    <a href="#" class="dropdown-item" (click)="navigateToSection('autres')">autres</a>
                     
                 </div>
             </div>

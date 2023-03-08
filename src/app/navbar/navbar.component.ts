@@ -20,9 +20,13 @@ export class NavbarComponent {
       console.log(this.data); 
     });
   }
-  update(x:string){
-this.categ=x;
-  this.router.navigate(['.', { parametre: this.categ }], { relativeTo: this.route });
+//   update(x:string){
+// this.categ=x;
+//   this.router.navigate(['.', { parametre: this.categ }], { relativeTo: this.route });
 
-  }
+//   }
+public navigateToSection(section: string) {
+  window.location.hash = '';
+  window.location.hash = section;
+}
 }

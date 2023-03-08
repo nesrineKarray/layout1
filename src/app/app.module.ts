@@ -28,6 +28,7 @@ import { PartenairesComponent } from './home/partenaires/partenaires.component';
 import { CarteAvisComponent } from './home/carte-avis/carte-avis.component';
 import { NewsLetterComponent } from './home/news-letter/news-letter.component';
 import { CarteArticleComponent } from './home/carte-article/carte-article.component';
+import { CategoriesComponent } from './categories/categories.component';
 
 
 @NgModule({
@@ -57,7 +58,8 @@ import { CarteArticleComponent } from './home/carte-article/carte-article.compon
     PartenairesComponent,
     CarteAvisComponent,
     NewsLetterComponent,
-    CarteArticleComponent
+    CarteArticleComponent,
+    CategoriesComponent
   ],
   imports: [
     BrowserModule,
