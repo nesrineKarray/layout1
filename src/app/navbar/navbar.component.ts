@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Categorie } from '../models/categorie.model';
 import { CategorieService } from '../services/categorie.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -8,8 +9,9 @@ import { CategorieService } from '../services/categorie.service';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
+  categ:string='';
   data:Categorie[] =[];
-  constructor(private dataCategorie: CategorieService) { }
+  constructor(private dataCategorie: CategorieService, private router: Router) { }
   
   ngOnInit() {
     this.dataCategorie.getCategorie()
@@ -17,5 +19,10 @@ export class NavbarComponent {
       this.data = allData;
       console.log(this.data); 
     });
+  }
+  update(x:string){
+this.categ=x;
+  this.router.navigate(['.', { parametre: this.categ }], { relativeTo: this.route });
+
   }
 }
