@@ -23,21 +23,13 @@
     </div>
 </div>
 
-
-
 <div class="container">
  <main class="card p-3">
     <nav class="nav flex-column nav-pills">
-<div class="d-flex" *ngFor="let categ of categorie ">
+
 	<ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-pills" orientation="vertical" >
-        
-		<app-children [categ]="categ"></app-children>
-       
-
-	</ul>
-
-</div>
+	<app-header [options]="options" (optionSelected)="onOptionSelected($event)"></app-header></ul>
 </nav>
-
+   <app-body [selectedOption]="selectedOption"></app-body>
 </main>
 </div>

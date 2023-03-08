@@ -1,6 +1,6 @@
-<li ngbNavItem="top">
+<li ngbNavItem="top" *ngIf=categ>
     <a ngbNavLink class="btn btn-outline-warning" style="margin: 15px;"> <i class="fa fa-balance-scale" ></i>{{categ}}</a>
-    <ng-template ngbNavContent>
+    <ng-template ngbNavContent >
         <app-list-article></app-list-article>
         <app-list-article></app-list-article>
         <app-list-article></app-list-article>

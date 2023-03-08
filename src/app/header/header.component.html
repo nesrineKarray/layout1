@@ -1,0 +1,7 @@
+<!-- ici methode : list category mais ne pas lire value  -->
+<!-- <select (change)="onSelect($event.target.value)"> -->
+
+  <li ngbNavItem="top" *ngFor="let option of options" [value]="option">
+    <a ngbNavLink   class="btn btn-outline-warning" style="margin: 15px;"> <i class="fa fa-balance-scale" ></i>{{ option }}</a>
+    
+</li>

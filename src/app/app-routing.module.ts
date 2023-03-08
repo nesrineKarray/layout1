@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { ListArticleComponent } from './list-article/list-article.component';
 import { LoginComponent } from './login/login.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { OptionComponent } from './option/option.component';
 import { ProductComponent } from './product/product.component';
 import { ServiceComponent } from './service/service.component';
 import { TeamComponent } from './team/team.component';
@@ -34,6 +35,7 @@ const routes: Routes = [
   {path:"globale",component:GlobaleComponent},
   {path:"categorie",component:CategorieComponent},
   {path:"children",component:ChildrenComponent},
+  {path:"option",component:OptionComponent}
 ];
 
 @NgModule({

@@ -9,6 +9,9 @@ export class CategorieComponent {
 
   active = 'top';
 
-  categorie:string[]=['juridique', 'fiscal' , 'social'] ;
-  
-}
+  options: string[] = ['juridique', 'fiscal' , 'social'];
+  selectedOption: string = 'juridique';
+
+  onOptionSelected(options: string) {
+    this.selectedOption = options;
+}}

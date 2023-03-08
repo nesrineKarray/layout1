@@ -18,9 +18,11 @@ import { TestimonialComponent } from './testimonial/testimonial.component';
 import { ListArticleComponent } from './list-article/list-article.component';
 import { GlobaleComponent } from './globale/globale.component';
 import { CategorieComponent } from './categorie/categorie.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbAccordionModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ChildrenComponent } from './children/children.component';
-
+import { OptionComponent } from './option/option.component';
+import { HeaderComponent } from './header/header.component';
+import { BodyComponent } from './body/body.component';
 
 @NgModule({
   declarations: [
@@ -39,13 +41,17 @@ import { ChildrenComponent } from './children/children.component';
     ListArticleComponent,
     GlobaleComponent,
     CategorieComponent,
-    ChildrenComponent 
+    ChildrenComponent ,
+    OptionComponent,
+    HeaderComponent,
+    BodyComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    NgbModule
+    NgbModule,NgbAccordionModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
