@@ -3,9 +3,6 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { map } from 'rxjs';
 
-
-
-
 interface article{
   id:Number;
   titre:String;
