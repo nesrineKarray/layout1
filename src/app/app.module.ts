@@ -25,7 +25,7 @@ import { NewsLetterComponent } from './home/news-letter/news-letter.component';
 import { CarteArticleComponent } from './home/carte-article/carte-article.component';
 import { CategoriesComponent } from './categories/categories.component';
 import {MenuCatHorizentalComponent} from './categories/menu-cat-horizental/menu-cat-horizental.component'
-import { FormsModule } from '@angular/forms'; // Import FormsModule
+// import { FormsModule } from '@angular/forms'; // Import FormsModule
 
 
 @NgModule({
@@ -58,7 +58,7 @@ import { FormsModule } from '@angular/forms'; // Import FormsModule
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule,
+    // FormsModule,
     // NgModule
   ],
   providers: [],

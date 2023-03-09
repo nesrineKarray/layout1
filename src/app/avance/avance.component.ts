@@ -11,6 +11,8 @@ export class AvanceComponent {
   registerForm:any = FormGroup;
 submitted = false;
 selectedValue: string = '';
+tags: string[]=[];
+
 constructor( private formBuilder: FormBuilder){}
 //Add user form actions
 get f() { return this.registerForm.controls; }
@@ -42,8 +44,16 @@ onSubmit() {
            
       });
   }
-
-
+  onSelectedValueChange(event: any) {
+    this.selectedValue = event.target.value; // Mise à jour de la valeur sélectionnée à chaque changement de sélection
+    console.log(this.selectedValue);
+    this.tags.push(this.selectedValue); 
+    console.log(this.tags);
+    // Affichage de la valeur sélectionnée dans la console du navigateur
+  }
+  supprimerLi(){
+   
+  }
 
 }
 

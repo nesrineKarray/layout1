@@ -99,15 +99,17 @@
                                 <p> des tags</p>
                                 <div class="tag-box">
                                     <ul>
-                                                                               <li>
-                                            css <i class="fa-solid fa-circle-xmark"></i>
-                                        </li>
-                                        <li>
-                                            html <i class="fa-sharp fa-regular fa-circle-xmark"></i>
-                                        </li>
-                                        <li>
-                                            html <i class="fa-sharp fa-regular fa-circle-xmark"></i>
-                                        </li>
+                                        <select class="form-select" (change)="onSelectedValueChange($event)">
+                                            <option selected="" hidden="">tous ..</option>
+                                            <option value="loi">loi</option>
+                                            <option value="guide">guide</option>
+                                            <option value="douane">douane</option>
+                                            </select>  
+                                                <div *ngFor="let tag of tags"><li> 
+                                            {{ tag }} <i (click)="supprimerLi()" class="fa-sharp fa-solid fa-circle-xmark"></i> 
+                                        </li></div>
+                                       
+                                       
                                        
                                     </ul>
                                 </div>
