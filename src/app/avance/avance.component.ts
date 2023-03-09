@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { NgModule } from '@angular/core';
 
 @Component({
   selector: 'app-avance',
@@ -9,6 +10,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class AvanceComponent {
   registerForm:any = FormGroup;
 submitted = false;
+selectedValue: string = '';
 constructor( private formBuilder: FormBuilder){}
 //Add user form actions
 get f() { return this.registerForm.controls; }
@@ -37,8 +39,12 @@ onSubmit() {
       children: ['', [Validators.required]],
       travel: ['', [Validators.required]],
       roundtripopt: ['', [Validators.required]],
-      
+           
       });
   }
 
+
+
 }
+
+

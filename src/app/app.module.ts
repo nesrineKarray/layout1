@@ -10,12 +10,7 @@ import { ServiceComponent } from './service/service.component';
 import { LoginComponent } from './login/login.component';
 import { AvanceComponent } from './avance/avance.component';
 import { TopbarComponent } from './topbar/topbar.component';
-import { FactsComponent } from './home/facts/facts.component';
-import { SocialeComponent } from './sociale/sociale.component';
 import {CartesAffichantCategoriesComponent } from './home/cartes-affichant-categories/cartes-affichant-categories.component'
-import { VaerticalComponent } from './vaertical/vaertical.component';
-import { JuridiqueComponent } from './juridique/juridique.component';
-import { FiscalComponent } from './fiscal/fiscal.component';
 import { ListArticleComponent } from './list-article/list-article.component';
 import { GlobaleComponent } from './globale/globale.component';
 import { AbonnementComponent } from './service/abonnement/abonnement.component';
@@ -29,6 +24,8 @@ import { CarteAvisComponent } from './home/carte-avis/carte-avis.component';
 import { NewsLetterComponent } from './home/news-letter/news-letter.component';
 import { CarteArticleComponent } from './home/carte-article/carte-article.component';
 import { CategoriesComponent } from './categories/categories.component';
+import {MenuCatHorizentalComponent} from './categories/menu-cat-horizental/menu-cat-horizental.component'
+import { FormsModule } from '@angular/forms'; // Import FormsModule
 
 
 @NgModule({
@@ -41,12 +38,7 @@ import { CategoriesComponent } from './categories/categories.component';
     LoginComponent,
     AvanceComponent,
     TopbarComponent,
-    FactsComponent,
-    SocialeComponent,
-    VaerticalComponent,
-    JuridiqueComponent,
-    FiscalComponent,
-    ListArticleComponent,
+     ListArticleComponent,
     GlobaleComponent,
     AbonnementComponent,
     InscritComponent,
@@ -59,12 +51,15 @@ import { CategoriesComponent } from './categories/categories.component';
     CarteAvisComponent,
     NewsLetterComponent,
     CarteArticleComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    MenuCatHorizentalComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    // NgModule
   ],
   providers: [],
   bootstrap: [AppComponent]

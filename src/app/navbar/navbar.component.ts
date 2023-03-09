@@ -26,7 +26,7 @@ export class NavbarComponent {
 
 //   }
 public navigateToSection(section: string) {
-  this.router.navigate(["/"]);
+  // this.router.navigate(["/"]);
   window.location.hash = '';
   window.location.hash = section;
 }
