@@ -85,7 +85,7 @@ h6,
 
 .navbar .navbar-nav .nav-link {
     padding: 35px 15px;
-    color: var(#ffde8a);
+    color: var(#111111);
     outline: none;
 }
 
@@ -96,6 +96,7 @@ h6,
 
 .navbar.fixed-top {
     transition: .5s;
+    background: var(--dark);
 }
 
 @media (max-width: 991.98px) {
